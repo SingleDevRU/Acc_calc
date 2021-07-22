@@ -22,7 +22,7 @@ class Mainapp(App):
 		self.gpord = Label(text='0')
 		self.label7 = Label(text='госпошлина иск:')
 		self.gpisk = Label(text='0')
-		self.c = Button(text='расчитать', )
+		self.c = Button(text='расчитать')
 		self.clear = Button(text='сброс')
 		
 		self.c.bind(on_press=self.calc)
